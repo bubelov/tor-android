@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.App.Base" parent="Theme.Material3.DynamicColors.DayNight">
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">?colorSurface</item>
+    </style>
+
+    <style name="Theme.App" parent="Theme.App.Base">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+</resources>
